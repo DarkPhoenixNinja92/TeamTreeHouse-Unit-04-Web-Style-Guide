@@ -6,24 +6,42 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    .btn:hover & .default {
+        background-color: red;
+    }
 }
 
 .default {
     background-color: $linkColor;
+    .default:hover & .btn:hover {
+        background: lighten($color: $linkColor, $amount: 10);
+    }
 }
 
 .error {
     background-color: #e4757a;
+    .error:hover {
+        background: lighten($color: #e99296, $amount: 10);
+    }
 }
 
 .info {
     background-color: #927bc1;
+    .info:hover {
+        background: lighten($color: #ab92dd, $amount: 10);
+    }
 }
 
 .success {
     background-color: #63cc82;
+    .success:hover {
+        background: lighten($color: #63cc82, $amount: 10);
+    }
 }
 
 .warning {
     background-color: #fd7856;
+    .error:hover {
+        background: lighten($color: #fd7856, $amount: 10);
+    }
 }
