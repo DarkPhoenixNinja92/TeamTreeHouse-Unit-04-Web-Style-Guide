@@ -391,48 +391,44 @@ a {
   border-radius: 5px;
 }
 
-.btn:hover .btn .default {
-  background-color: red;
+.default:hover {
+  background-color: #b5f1fe;
 }
 
 .default {
   background-color: #51ddfc;
 }
 
-.default:hover .default .btn:hover {
-  background: #83e7fd;
-}
-
 .error {
   background-color: #e4757a;
 }
 
-.error .error:hover {
-  background: #f2bcbf;
+.error:hover {
+  background: #f5cacc;
 }
 
 .info {
   background-color: #927bc1;
 }
 
-.info .info:hover {
-  background: #c9b9e9;
+.info:hover {
+  background: #cbc0e2;
 }
 
 .success {
   background-color: #63cc82;
 }
 
-.success .success:hover {
-  background: #89d9a1;
+.success:hover {
+  background: #b0e5c0;
 }
 
 .warning {
   background-color: #fd7856;
 }
 
-.warning .error:hover {
-  background: #fea088;
+.warning:hover {
+  background: #fec9bb;
 }
 
 .form {
